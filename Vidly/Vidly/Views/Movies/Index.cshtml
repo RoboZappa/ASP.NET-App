@@ -1,3 +1,4 @@
+@using System.Web.UI.HtmlControls
 @model IEnumerable<Vidly.Models.Movie>
 
 @{
@@ -6,6 +7,7 @@
 }
 
 <h2>Movies</h2>
+<a class="btn btn-info" role="button" @Html.ActionLink("New Movie", "New", "Movies")></a>
 @if (!Model.Any())
 {
     <p>No Movies at this time</p>
@@ -13,10 +15,17 @@
 else
 {
     <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Movie</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
         @foreach (var movie in Model)
         {
             <tr>
-                <td>@movie.Name</td>
+                <td>@Html.ActionLink(movie.Name, "Edit", "Movies", new { id = movie.Id }, null)</td>
+                <td>@movie.Genre.Name</td>
             </tr>
         }
     </table>

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\jgilm\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\jgilm\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Vidly.190539897.00" t="ExcludeRecursive" />
-    <e p="C:\Users\jgilm\Documents\Private Developments\C#\Vidly" t="IncludeFlat">
+    <e p="C:\Users\jgilm\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Vidly.-166649013.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jgilm\Documents\Private Developments\C#\ASP.NET App\Vidly" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Vidly" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
         <e p="App_Data" t="Include" />
         <e p="App_Start" t="Include">
           <e p="BundleConfig.cs" t="Include" />
@@ -34,8 +35,38 @@
         </e>
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="202009010418099_InitialModel.cs" t="Include" />
+          <e p="202009010418099_InitialModel.designer.cs" t="Include" />
+          <e p="202009010418099_InitialModel.resx" t="Include" />
+          <e p="202009060125369_PopulateMembershipTypes.cs" t="Include" />
+          <e p="202009060125369_PopulateMembershipTypes.designer.cs" t="Include" />
+          <e p="202009060125369_PopulateMembershipTypes.resx" t="Include" />
+          <e p="202009060229138_ApplyAnnotationsToCustomerName.cs" t="Include" />
+          <e p="202009060229138_ApplyAnnotationsToCustomerName.designer.cs" t="Include" />
+          <e p="202009060229138_ApplyAnnotationsToCustomerName.resx" t="Include" />
+          <e p="202009071954536_AddNameToMembershipType.cs" t="Include" />
+          <e p="202009071954536_AddNameToMembershipType.designer.cs" t="Include" />
+          <e p="202009071954536_AddNameToMembershipType.resx" t="Include" />
+          <e p="202009072018074_AddBirthDateToCustomer.cs" t="Include" />
+          <e p="202009072018074_AddBirthDateToCustomer.designer.cs" t="Include" />
+          <e p="202009072018074_AddBirthDateToCustomer.resx" t="Include" />
+          <e p="202009072032011_UpdateToAddBirthDate.cs" t="Include" />
+          <e p="202009072032011_UpdateToAddBirthDate.designer.cs" t="Include" />
+          <e p="202009072032011_UpdateToAddBirthDate.resx" t="Include" />
+          <e p="202009080156595_UpdateMovieClass.cs" t="Include" />
+          <e p="202009080156595_UpdateMovieClass.designer.cs" t="Include" />
+          <e p="202009080156595_UpdateMovieClass.resx" t="Include" />
+          <e p="202009080203168_GenreClassPlusInsert.cs" t="Include" />
+          <e p="202009080203168_GenreClassPlusInsert.designer.cs" t="Include" />
+          <e p="202009080203168_GenreClassPlusInsert.resx" t="Include" />
+          <e p="Configuration.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
+          <e p="ApplicationUser.cs" t="Include" />
           <e p="Customer.cs" t="Include" />
+          <e p="Genre.cs" t="Include" />
+          <e p="MembershipType.cs" t="Include" />
           <e p="Movie.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
@@ -60,13 +91,17 @@
           <e p="respond.min.js" t="Include" />
         </e>
         <e p="Vidly.csproj" t="IncludeRecursive" />
+        <e p="VidlyContext.cs" t="Include" />
         <e p="ViewModels" t="Include">
+          <e p="CustomerFormViewModel.cs" t="Include" />
+          <e p="MovieFormViewModel.cs" t="Include" />
           <e p="RandomMovieViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Account" t="Include" />
           <e p="Customers" t="Include">
+            <e p="CustomerForm.cshtml" t="Include" />
             <e p="Details.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
@@ -75,7 +110,9 @@
           </e>
           <e p="Manage" t="Include" />
           <e p="Movies" t="Include">
+            <e p="Details.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
+            <e p="MovieForm.cshtml" t="Include" />
             <e p="Random.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
